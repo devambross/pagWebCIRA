@@ -185,8 +185,8 @@
             </div>
         </div>
 
-        <div class="map-container">
+        <!--<div class="map-container">
             <p>Aquí puedes agregar un mapa de Google Maps</p>
-        </div>
+        </div>-->
     </section>
 @endsection

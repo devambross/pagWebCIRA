@@ -95,14 +95,14 @@
 @section('content')
     <!-- Banner Hero -->
     <section class="hero">
-        <h1>Servicios</h1>
+        <h1>Productos</h1>
     </section>
 
     <!-- Contenido -->
     <section class="content">
         <h2 class="section-title">Nuestros Productos</h2>
         <p class="section-text">
-            Ofrecemos una amplia gama de servicios ambientales especializados para diferentes sectores.
+            Ofrecemos una amplia gama de productos especializados para diferentes sectores.
         </p>
 
         <div class="services-grid">

@@ -1,0 +1,25 @@
+# Archivos de producción con credenciales reales (no subir)
+.env
+src/.env
+
+# Certificados SSL (no subir)
+nginx/ssl/*.pem
+nginx/ssl/*.key
+nginx/ssl/*.crt
+
+# Logs
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backups de base de datos
+*.sql
+backup_*.sql

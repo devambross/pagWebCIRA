@@ -100,10 +100,16 @@
                 <h3>Artely</h3>
             </div>
 
-            <!--<div class="client-card">
-                <div class="client-logo">🚛</div>
-                <h3>Transporte</h3>
-            </div>-->
+            <div class="client-card">
+                <div class="client-logo" style="background-image: url('https://lirp.cdn-website.com/60617cdc/dms3rep/multi/opt/Atica_ArteFinalLogo-7-60b3eae4-237w.png'); background-color: #000;"></div>
+                <h3>Atica</h3>
+            </div>
+
+            <div class="client-card">
+                <div class="client-logo" style="background-image: url('images/citemadera_logo.jpeg');"></div>
+                <h3>CITEmadera</h3>
+            </div>
+
         </div>
 
         <!--<div class="sectors">

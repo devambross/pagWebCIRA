@@ -8,7 +8,7 @@
         margin-top: 70px;
         height: 600px;
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                    url('https://www.ue.edu.pe/pregrado/images/2025%20pregrado/Blog%20UE%2016.png') center/cover;
+                    url('https://img10.naventcdn.com/avisos/resize/111/01/47/97/13/13/1200x1200/1567787571.jpg?rapc=bXZhX2ltYWdl') center/cover;
         display: flex;
         align-items: center;
         justify-content: center;

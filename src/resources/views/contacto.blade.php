@@ -85,12 +85,51 @@
     .map-container {
         margin: 3rem 0;
         height: 400px;
-        background: #e0e0e0;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #666;
+        background: #f8f9fa;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        position: relative;
+    }
+
+    .map-link {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .map-link:hover {
+        transform: scale(1.02);
+    }
+
+    .map-link::after {
+        content: '📍 Ver en Google Maps';
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background: #2c5f2d;
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 0.9rem;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .map-link:hover::after {
+        opacity: 1;
+    }
+
+    .map-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
     }
 </style>
 @endsection
@@ -116,7 +155,7 @@
                     <div class="contact-icon">📍</div>
                     <div>
                         <strong>Dirección</strong>
-                        <p>Jr. Alonso de Molina 1652, Santiago de Surco 15023<br>Lima, Perú</p>
+                        <p>Calle 7 S/N Villa el Salvador, Villa el Salvador, Lima<br>Lima, Perú</p>
                     </div>
                 </div>
 
@@ -185,8 +224,15 @@
             </div>
         </div>
 
-        <!--<div class="map-container">
-            <p>Aquí puedes agregar un mapa de Google Maps</p>
-        </div>-->
+        <div class="map-container">
+            <a href="https://www.google.com/maps/place/-12.2177222,-76.9681111/@-12.2177222,-76.9681111,17z"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="map-link"
+               title="Ver ubicación en Google Maps">
+                <img src="https://img10.naventcdn.com/ficha/map/Adondevivir/147972670E.png"
+                     alt="Ubicación de CIRA en el mapa">
+            </a>
+        </div>
     </section>
 @endsection

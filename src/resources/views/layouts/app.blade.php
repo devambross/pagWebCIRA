@@ -85,7 +85,7 @@
             margin-top: 70px;
             height: 400px;
             background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-                        url('https://www.ue.edu.pe/pregrado/images/2025%20pregrado/Blog%20UE%2016.png') center/cover;
+                        url('https://img10.naventcdn.com/avisos/resize/111/01/47/97/13/13/1200x1200/1570704103.jpg?rapc=bXZhX2ltYWdl?isFirstImage=true') center/cover;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -236,7 +236,7 @@
                 <ul class="nav" id="navMenu">
                     <li><a href="/" class="{{ request()->is('/') ? 'active' : '' }}">Inicio</a></li>
                     <li><a href="/nosotros" class="{{ request()->is('nosotros') ? 'active' : '' }}">Quienes Somos</a></li>
-                    <!--<li><a href="/servicios" class="{{ request()->is('servicios') ? 'active' : '' }}">Servicios</a></li>-->
+                    <li><a href="/productos" class="{{ request()->is('productos') ? 'active' : '' }}">Productos</a></li>
                     <li><a href="/proyectos" class="{{ request()->is('proyectos') ? 'active' : '' }}">Proyectos</a></li>
                     <li><a href="/aliados" class="{{ request()->is('aliados') ? 'active' : '' }}">Aliados</a></li>
                     <li><a href="/contacto" class="{{ request()->is('contacto') ? 'active' : '' }}">Contacto</a></li>
@@ -268,7 +268,7 @@
                 <h4>Contacto</h4>
                 <div class="contact-info">
                     <span>📍</span>
-                    <p>Jr. Alonso de Molina 1652, Santiago de Surco 15023<br>Lima, Perú</p>
+                    <p>Calle 7 S/N Villa el Salvador, Villa el Salvador, Lima<br>Lima, Perú</p>
                 </div>
                 <div class="contact-info">
                     <span>✉️</span>

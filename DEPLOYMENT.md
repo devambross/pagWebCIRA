@@ -90,11 +90,40 @@ sudo apt install git -y
 
 ### 3.1 Clonar el Repositorio
 
+**Opción A: Repositorio Público (Recomendado)**
 ```bash
 # En el servidor
 cd ~
 git clone https://github.com/devambross/pagWebCIRA.git
 cd pagWebCIRA
+```
+
+**Opción B: Repositorio Privado con SSH**
+```bash
+# 1. Generar clave SSH en el servidor
+ssh-keygen -t ed25519 -C "tu-email@gmail.com"
+# Presiona Enter 3 veces (sin passphrase)
+
+# 2. Copiar la clave pública
+cat ~/.ssh/id_ed25519.pub
+# Copia todo el contenido
+
+# 3. Agregar la clave a GitHub:
+# - Ve a GitHub → Settings → SSH and GPG keys → New SSH key
+# - Pega la clave pública
+
+# 4. Clonar con SSH
+cd ~
+git clone git@github.com:devambross/pagWebCIRA.git
+cd pagWebCIRA
+```
+
+**Opción C: Repositorio Privado con Token**
+```bash
+# Usa tu Personal Access Token como contraseña
+git clone https://github.com/devambross/pagWebCIRA.git
+# Username: devambross
+# Password: [tu_personal_access_token]
 ```
 
 ### 3.2 Configurar Variables de Entorno
